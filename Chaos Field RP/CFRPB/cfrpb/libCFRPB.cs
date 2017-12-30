@@ -1,9 +1,5 @@
-﻿using Discord;
+using Discord;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace cfrpb
 {
@@ -19,7 +15,7 @@ namespace cfrpb
             e.ThumbnailUrl = imgUrl;
             return e.Build();
         }
-        public String getToken ()
+        public String getToken()
         {
             return loginInfo.token;
         }
