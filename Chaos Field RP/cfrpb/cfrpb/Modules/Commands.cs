@@ -10,7 +10,7 @@ namespace cfrpb.Modules
     public class Commands : ModuleBase<SocketCommandContext>
     {
         private HttpClient client = new HttpClient();
-        private libCFRPB lib = new libCFRPB();
+        private libCFRP lib = new libCFRP();
 
         private string getUsersURL = "http://monstahhhbot.890m.com/NexiBot/getCharData10.php";
         private string injectUsersURL = "http://monstahhhbot.890m.com/NexiBot/postCharData10.php";
