@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandHandler.cs" />
+    <Compile Include="libCFRP.cs" />
     <Compile Include="LoginInfo.cs" />
     <Compile Include="Modules\Commands.cs" />
     <Compile Include="Program.cs" />
