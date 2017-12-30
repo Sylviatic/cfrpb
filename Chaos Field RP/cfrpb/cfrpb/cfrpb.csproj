@@ -130,6 +130,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="libCFRPB.cs" />
     <Compile Include="CommandHandler.cs" />
     <Compile Include="LoginInfo.cs" />
     <Compile Include="Modules\Commands.cs" />

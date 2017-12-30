@@ -29,7 +29,7 @@ namespace cfrpb
             if (msg == null) return;
             var context = new SocketCommandContext(_client, msg);
             int argPos = 0;
-            if (msg.HasStringPrefix("cs!", ref argPos))
+            if (msg.HasStringPrefix("cf!", ref argPos))
             {
                 var result = await _service.ExecuteAsync(context, argPos);
                 if (!result.IsSuccess)

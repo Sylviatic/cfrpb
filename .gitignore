@@ -11,6 +11,8 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+connection.php
+LoginInfo.cs
 
 # Build results
 [Dd]ebug/

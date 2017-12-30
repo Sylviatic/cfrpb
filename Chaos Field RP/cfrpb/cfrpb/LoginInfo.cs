@@ -8,8 +8,6 @@ namespace cfrpb
 {
     public class LoginInfo
     {
-
-        public string token = "Mzk2NjM1MjU1NTg0MzI1NjMy.DSmPmQ.TkvnPvLhOxL0u_1Wa-QUEW5NxZc";
-      
+        public string token = "Mzk2NjM1MjU1NTg0MzI1NjMy.DSmgBQ.drzxFprb9D6NqgYCHg8KeV71OFA";
     }
 }
