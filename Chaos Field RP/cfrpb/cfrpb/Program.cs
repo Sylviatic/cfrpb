@@ -11,14 +11,15 @@ namespace cfrpb
 {
     public class Program
     {
-        static void Main(string[] args)
-         => Program().StartAsync().GetAwaiter().GetResult();
+        public static void Main(string[] args)
+         => new Program().StartAsync().GetAwaiter().GetResult();
 
         public DiscordSocketClient _client = new DiscordSocketClient(new DiscordSocketConfig
         {
             LogLevel = LogSeverity.Verbose
         });
-
+        private LoginInfo loginInfo = new LoginInfo();
+        private CommandHandler _handler = new CommandHandler();
 
         public async Task StartAsync()
         {
@@ -37,10 +38,9 @@ namespace cfrpb
             Console.WriteLine(lm.ToString());
             return Task.CompletedTask;
         }
-       public async Task Ready()
+        public async Task Ready()
         {
-            await _client.SetGameAsync("cf! | Character Bios for Chaos Fields")
+            await _client.SetGameAsync("cf! | Character Bios for Chaos Fields");
         }
-        
     }
 }
